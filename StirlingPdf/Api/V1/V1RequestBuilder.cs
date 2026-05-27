@@ -21,37 +21,51 @@ namespace StirlingPdf.Api.V1
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public partial class V1RequestBuilder : BaseRequestBuilder
     {
-        /// <summary>The analysis property</summary>
+        /// <summary>
+        /// Gets analysis endpoints under <c>/api/v1/analysis</c>.
+        /// </summary>
         public global::StirlingPdf.Api.V1.Analysis.AnalysisRequestBuilder Analysis
         {
             get => new global::StirlingPdf.Api.V1.Analysis.AnalysisRequestBuilder(PathParameters, RequestAdapter);
         }
-        /// <summary>The convert property</summary>
+        /// <summary>
+        /// Gets conversion endpoints under <c>/api/v1/convert</c>.
+        /// </summary>
         public global::StirlingPdf.Api.V1.ConvertNamespace.ConvertRequestBuilder Convert
         {
             get => new global::StirlingPdf.Api.V1.ConvertNamespace.ConvertRequestBuilder(PathParameters, RequestAdapter);
         }
-        /// <summary>The filter property</summary>
+        /// <summary>
+        /// Gets filtering endpoints under <c>/api/v1/filter</c>.
+        /// </summary>
         public global::StirlingPdf.Api.V1.Filter.FilterRequestBuilder Filter
         {
             get => new global::StirlingPdf.Api.V1.Filter.FilterRequestBuilder(PathParameters, RequestAdapter);
         }
-        /// <summary>The general property</summary>
+        /// <summary>
+        /// Gets general-purpose endpoints under <c>/api/v1/general</c>.
+        /// </summary>
         public global::StirlingPdf.Api.V1.General.GeneralRequestBuilder General
         {
             get => new global::StirlingPdf.Api.V1.General.GeneralRequestBuilder(PathParameters, RequestAdapter);
         }
-        /// <summary>The misc property</summary>
+        /// <summary>
+        /// Gets miscellaneous endpoints under <c>/api/v1/misc</c>.
+        /// </summary>
         public global::StirlingPdf.Api.V1.Misc.MiscRequestBuilder Misc
         {
             get => new global::StirlingPdf.Api.V1.Misc.MiscRequestBuilder(PathParameters, RequestAdapter);
         }
-        /// <summary>The pipeline property</summary>
+        /// <summary>
+        /// Gets pipeline endpoints under <c>/api/v1/pipeline</c>.
+        /// </summary>
         public global::StirlingPdf.Api.V1.Pipeline.PipelineRequestBuilder Pipeline
         {
             get => new global::StirlingPdf.Api.V1.Pipeline.PipelineRequestBuilder(PathParameters, RequestAdapter);
         }
-        /// <summary>The security property</summary>
+        /// <summary>
+        /// Gets security endpoints under <c>/api/v1/security</c>.
+        /// </summary>
         public global::StirlingPdf.Api.V1.Security.SecurityRequestBuilder Security
         {
             get => new global::StirlingPdf.Api.V1.Security.SecurityRequestBuilder(PathParameters, RequestAdapter);

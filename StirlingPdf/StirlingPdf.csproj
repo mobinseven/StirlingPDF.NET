@@ -4,10 +4,28 @@
 		<TargetFramework>net10.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
+		<IsPackable>true</IsPackable>
+		<PackageId>StirlingPDF.NET</PackageId>
+		<Authors>Stirling PDF</Authors>
+		<Description>.NET SDK client for the Stirling PDF API generated with Kiota.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/mobinseven/StirlingPDF.NET</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/mobinseven/StirlingPDF.NET</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>stirlingpdf;pdf;api;sdk;kiota</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 	</PropertyGroup>
 
 	<ItemGroup>
 	  <PackageReference Include="Microsoft.Kiota.Bundle" Version="2.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
 </Project>

@@ -17,9 +17,14 @@ namespace StirlingPdf
     /// The main entry point of the SDK, exposes the configuration and the fluent API.
     /// </summary>
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
-    public partial class StirlingPdfClient : BaseRequestBuilder
+    public partial class StirlingPdfClient : BaseRequestBuilder, IStirlingPdfClient
     {
-        /// <summary>The api property</summary>
+        /// <summary>
+        /// Gets the request builder for endpoints under <c>/api</c>.
+        /// </summary>
+        /// <remarks>
+        /// This includes all <c>/api/v1</c> endpoint groups such as analysis, convert, filter, general, misc, pipeline, and security operations.
+        /// </remarks>
         public global::StirlingPdf.Api.ApiRequestBuilder Api
         {
             get => new global::StirlingPdf.Api.ApiRequestBuilder(PathParameters, RequestAdapter);

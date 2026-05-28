@@ -15,7 +15,9 @@ namespace StirlingPdf.Api
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public partial class ApiRequestBuilder : BaseRequestBuilder
     {
-        /// <summary>The v1 property</summary>
+        /// <summary>
+        /// Gets the request builder for endpoints under <c>/api/v1</c>.
+        /// </summary>
         public global::StirlingPdf.Api.V1.V1RequestBuilder V1
         {
             get => new global::StirlingPdf.Api.V1.V1RequestBuilder(PathParameters, RequestAdapter);

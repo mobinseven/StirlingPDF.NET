@@ -91,7 +91,7 @@ Analysis and a few validation-style endpoints return generated response objects 
 ```csharp
 var response = await client.Api.V1.Analysis.PageCount.PostAsPageCountPostResponseAsync(body);
 
-if (response?.AdditionalData.TryGetValue("pageCount", out var pageCount) == true)
+if (response?.AdditionalData?.TryGetValue("pageCount", out var pageCount) == true)
 {
     Console.WriteLine(pageCount);
 }

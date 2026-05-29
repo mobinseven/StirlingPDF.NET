@@ -76,8 +76,11 @@ Most conversion and transformation endpoints return `Stream`.
 
 ```csharp
 await using var result = await client.Api.V1.Convert.Img.Pdf.PostAsync(body);
-await using var output = File.Create("output.pdf");
-await result!.CopyToAsync(output);
+if (result != null)
+{
+    await using var output = File.Create("output.pdf");
+    await result.CopyToAsync(output);
+}
 ```
 
 ### Text output

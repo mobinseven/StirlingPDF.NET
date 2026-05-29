@@ -177,7 +177,7 @@ client
 | `client.Api.V1.Filter.FilterContainsImage` | `{baseurl}/api/v1/filter/filter-contains-image` | `PostAsync` | No content | Checks if a PDF contains an image |
 | `client.Api.V1.Filter.FilterContainsText` | `{baseurl}/api/v1/filter/filter-contains-text` | `PostAsync` | No content | Checks if a PDF contains set text, returns true if does |
 | `client.Api.V1.Filter.FilterFileSize` | `{baseurl}/api/v1/filter/filter-file-size` | `PostAsync` | No content | Checks if a PDF is a set file size |
-| `client.Api.V1.Filter.FilterPageCount` | `{baseurl}/api/v1/filter/filter-page-count` | `PostAsync` | No content | Checks if a PDF is greater, less or equal to a setPageCount |
+| `client.Api.V1.Filter.FilterPageCount` | `{baseurl}/api/v1/filter/filter-page-count` | `PostAsync` | No content | Checks if a PDF is greater than, less than, or equal to a set page count |
 | `client.Api.V1.Filter.FilterPageRotation` | `{baseurl}/api/v1/filter/filter-page-rotation` | `PostAsync` | No content | Checks if a PDF is of a certain rotation |
 | `client.Api.V1.Filter.FilterPageSize` | `{baseurl}/api/v1/filter/filter-page-size` | `PostAsync` | No content | Checks if a PDF is of a certain size |
 

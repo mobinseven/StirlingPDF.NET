@@ -1,1 +1,0 @@
-# StirlingPDF.NET
